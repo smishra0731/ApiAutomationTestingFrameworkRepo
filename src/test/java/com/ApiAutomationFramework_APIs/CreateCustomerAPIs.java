@@ -9,7 +9,7 @@ import io.restassured.response.Response;
 public class CreateCustomerAPIs extends BaseTest {
 
 	public static Response sendPostRequestToCreateCustomreWithValidKey(String name,String email,String description) {
-
+		
 		Response res = given().auth().basic(config.getProperty("validSecretKey"), "")
 		.formParam("name", name).formParam("email", email).formParam("description", description).post(config.getProperty("createCustomerEndPoint"));
 		
