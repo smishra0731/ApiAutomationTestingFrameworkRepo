@@ -8,17 +8,19 @@
 	</listener>
 </listeners>
   
-  <test name="Create Customer API Test">
+  <test name="Create Order Test">
     <classes>
-      <class name="com.w2a.APITestingFramework.testcases.CreateCustomerTest"/>
+      <class name="com.w2a.APITestingFramework.testcases.paypal.CreateOrderTest"/>
     </classes>
   </test> <!-- Test -->
   
   
-   <test name="Delete Customer API Test">
+    
+  <test name="Get Order Test">
     <classes>
-      <class name="com.w2a.APITestingFramework.testcases.DeleteCustomerTest"/>
+      <class name="com.w2a.APITestingFramework.testcases.paypal.GetOrderTest"/>
     </classes>
   </test> <!-- Test -->
+  
   
 </suite> <!-- Suite -->
