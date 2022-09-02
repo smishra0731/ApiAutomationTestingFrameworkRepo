@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.558" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\SUDHANSM\eclipse-workspace\ApiAutomationFramework2\target\test-classes;C:\Users\SUDHANSM\eclipse-workspace\ApiAutomationFramework2\target\classes;C:\Users\SUDHANSM\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SUDHANSM\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SUDHANSM\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\SUDHANSM\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SUDHANSM\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\SUDHANSM\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\SUDHANSM\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\SUDHANSM\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\SUDHANSM\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\SUDHANSM\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\SUDHANSM\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SUDHANSM\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SUDHANSM\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SUDHANSM\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\SUDHANSM\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\SUDHANSM\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\SUDHANSM\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\SUDHANSM\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\poi\poi\5.2.0\poi-5.2.0.jar;C:\Users\SUDHANSM\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\SUDHANSM\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\SUDHANSM\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\SUDHANSM\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\SUDHANSM\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\SUDHANSM\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.0\xmlbeans-5.1.0.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\SUDHANSM\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\SUDHANSM\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\SUDHANSM\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\SUDHANSM\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\SUDHANSM\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\SUDHANSM\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Foundation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\SUDHANSM\AppData\Local\Temp\surefire17963964520570385425\surefirebooter-20220902114242142_3.jar C:\Users\SUDHANSM\AppData\Local\Temp\surefire17963964520570385425 2022-09-02T11-42-41_513-jvmRun1 surefire-20220902114242142_1tmp surefire_0-20220902114242142_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\SUDHANSM\eclipse-workspace\ApiAutomationFramework2\target\test-classes;C:\Users\SUDHANSM\eclipse-workspace\ApiAutomationFramework2\target\classes;C:\Users\SUDHANSM\.m2\repository\io\rest-assured\rest-assured\5.1.1\rest-assured-5.1.1.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\SUDHANSM\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\SUDHANSM\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\SUDHANSM\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\SUDHANSM\.m2\repository\io\rest-assured\json-path\5.1.1\json-path-5.1.1.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\SUDHANSM\.m2\repository\io\rest-assured\rest-assured-common\5.1.1\rest-assured-common-5.1.1.jar;C:\Users\SUDHANSM\.m2\repository\io\rest-assured\xml-path\5.1.1\xml-path-5.1.1.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\SUDHANSM\.m2\repository\javax\mail\mail\1.4.7\mail-1.4.7.jar;C:\Users\SUDHANSM\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\SUDHANSM\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\SUDHANSM\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\SUDHANSM\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\SUDHANSM\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\SUDHANSM\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\SUDHANSM\.m2\repository\org\json\json\20220320\json-20220320.jar;C:\Users\SUDHANSM\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.3\jackson-databind-2.13.3.jar;C:\Users\SUDHANSM\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\SUDHANSM\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\poi\poi\5.2.0\poi-5.2.0.jar;C:\Users\SUDHANSM\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\SUDHANSM\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\SUDHANSM\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\SUDHANSM\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\SUDHANSM\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\SUDHANSM\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.0\xmlbeans-5.1.0.jar;C:\Users\SUDHANSM\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\SUDHANSM\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\SUDHANSM\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\SUDHANSM\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\SUDHANSM\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\SUDHANSM\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\SUDHANSM\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SUDHANSM"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\SUDHANSM\eclipse-workspace\ApiAutomationFramework2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\SUDHANSM\AppData\Local\Temp\surefire17963964520570385425\surefirebooter-20220902114242142_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+7"/>
+    <property name="user.name" value="sudhansm"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.12+7"/>
+    <property name="localRepository" value="C:\Users\SUDHANSM\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\SUDHANSM\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="C:\Users\SUDHANSM\eclipse-workspace\ApiAutomationFramework2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Python38-32\Scripts\;C:\Program Files (x86)\Python38-32\;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;%maven home%\bin;C:\Program Files\Eclipse Foundation\jdk-11.0.12.7-hotspot\bin;C:\Users\SUDHANSM\AppData\Local\Microsoft\WindowsApps;C:\Users\SUDHANSM\AppData\Local\Programs\Git\cmd;C:\Users\SUDHANSM\AppData\Local\atom\bin;C:\Users\SUDHANSM\Desktop\Automation\apache-maven-3.8.6\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Foundation"/>
+    <property name="java.vm.version" value="11.0.12+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="invalidCreateCustomreAPI[Chetan, chetan@gmail.com,  This is first record through excel data](1)" classname="com.ApiAutomationFramework_TestCases.CreateCustomerTest" time="1.917">
+    <system-out><![CDATA[invalidCreateCustomreAPI
+Chetan
+Rows are : 2 Colums are :3
+{
+    "error": {
+        "message": "Invalid API Key provided: sk_test_*************************************************************************************************i2aa",
+        "type": "invalid_request_error"
+    }
+}
+401
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreateCustomreAPI[Sudhanshu, sudhanshu@gmail.com,  This is first record through excel data](1)" classname="com.ApiAutomationFramework_TestCases.CreateCustomerTest" time="0.827">
+    <system-out><![CDATA[validateCreateCustomreAPI
+Sudhanshu
+Rows are : 3 Colums are :3
+{
+    "id": "cus_MMBUNKL73UCLri",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1662099167,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": " This is first record through excel data",
+    "discount": null,
+    "email": "sudhanshu@gmail.com",
+    "invoice_prefix": "8054B276",
+    "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+    },
+    "livemode": false,
+    "metadata": {
+        
+    },
+    "name": "Sudhanshu",
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [
+        
+    ],
+    "shipping": null,
+    "tax_exempt": "none",
+    "test_clock": null
+}
+200
+]]></system-out>
+  </testcase>
+  <testcase name="validateCreateCustomreAPI[Aman, aman@gmail.com,  This is second record through excel data](2)" classname="com.ApiAutomationFramework_TestCases.CreateCustomerTest" time="0.808">
+    <system-out><![CDATA[{
+    "id": "cus_MMBU0S40b5gs4F",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1662099168,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": " This is second record through excel data",
+    "discount": null,
+    "email": "aman@gmail.com",
+    "invoice_prefix": "372844D7",
+    "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+    },
+    "livemode": false,
+    "metadata": {
+        
+    },
+    "name": "Aman",
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [
+        
+    ],
+    "shipping": null,
+    "tax_exempt": "none",
+    "test_clock": null
+}
+200
+]]></system-out>
+  </testcase>
+  <testcase name="validateDeleteCustomreAPI[Dileep, dileep@gmail.com, This record is created from excel to delete](1)" classname="com.ApiAutomationFramework_TestCases.DeleteCustomerTest" time="1.577">
+    <system-out><![CDATA[validateDeleteCustomreAPI
+Dileep
+Rows are : 2 Colums are :3
+{
+    "id": "cus_MMBUr6VNBYIpo8",
+    "object": "customer",
+    "address": null,
+    "balance": 0,
+    "created": 1662099168,
+    "currency": null,
+    "default_source": null,
+    "delinquent": false,
+    "description": "This record is created from excel to delete",
+    "discount": null,
+    "email": "dileep@gmail.com",
+    "invoice_prefix": "6566909B",
+    "invoice_settings": {
+        "custom_fields": null,
+        "default_payment_method": null,
+        "footer": null,
+        "rendering_options": null
+    },
+    "livemode": false,
+    "metadata": {
+        
+    },
+    "name": "Dileep",
+    "next_invoice_sequence": 1,
+    "phone": null,
+    "preferred_locales": [
+        
+    ],
+    "shipping": null,
+    "tax_exempt": "none",
+    "test_clock": null
+}
+Value of created record id is cus_MMBUr6VNBYIpo8
+{
+    "id": "cus_MMBUr6VNBYIpo8",
+    "object": "customer",
+    "deleted": true
+}
+Value of deleted record id is cus_MMBUr6VNBYIpo8
+]]></system-out>
+  </testcase>
+</testsuite>

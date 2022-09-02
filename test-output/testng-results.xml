@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-02T11:36:27 IST" name="Suite" finished-at="2022-09-02T11:36:32 IST" duration-ms="4953">
+    <groups>
+    </groups>
+    <test started-at="2022-09-02T11:36:27 IST" name="Create customer API Test" finished-at="2022-09-02T11:36:32 IST" duration-ms="4953">
+      <class name="com.ApiAutomationFramework_TestCases.DeleteCustomerTest">
+        <test-method signature="validateDeleteCustomreAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ApiAutomationFramework_TestCases.DeleteCustomerTest@5987e932]" started-at="2022-09-02T11:36:31 IST" name="validateDeleteCustomreAPI" data-provider="data" finished-at="2022-09-02T11:36:32 IST" duration-ms="1588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dileep]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dileep@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[This record is created from excel to delete]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteCustomreAPI -->
+      </class> <!-- com.ApiAutomationFramework_TestCases.DeleteCustomerTest -->
+      <class name="com.ApiAutomationFramework_TestCases.CreateCustomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ApiAutomationFramework_TestCases.CreateCustomerTest@7726e185]" started-at="2022-09-02T11:36:27 IST" name="setUp" finished-at="2022-09-02T11:36:27 IST" duration-ms="381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="invalidCreateCustomreAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ApiAutomationFramework_TestCases.CreateCustomerTest@7726e185]" started-at="2022-09-02T11:36:27 IST" name="invalidCreateCustomreAPI" data-provider="data" finished-at="2022-09-02T11:36:29 IST" duration-ms="1588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chetan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chetan@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ This is first record through excel data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCreateCustomreAPI -->
+        <test-method signature="validateCreateCustomreAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ApiAutomationFramework_TestCases.CreateCustomerTest@7726e185]" started-at="2022-09-02T11:36:29 IST" name="validateCreateCustomreAPI" data-provider="data" finished-at="2022-09-02T11:36:30 IST" duration-ms="921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sudhanshu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sudhanshu@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ This is first record through excel data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomreAPI -->
+        <test-method signature="validateCreateCustomreAPI(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ApiAutomationFramework_TestCases.CreateCustomerTest@7726e185]" started-at="2022-09-02T11:36:30 IST" name="validateCreateCustomreAPI" data-provider="data" finished-at="2022-09-02T11:36:31 IST" duration-ms="804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aman@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ This is second record through excel data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomreAPI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ApiAutomationFramework_TestCases.CreateCustomerTest@7726e185]" started-at="2022-09-02T11:36:33 IST" name="tearDown" finished-at="2022-09-02T11:36:33 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ApiAutomationFramework_TestCases.CreateCustomerTest -->
+    </test> <!-- Create customer API Test -->
+  </suite> <!-- Suite -->
+</testng-results>
