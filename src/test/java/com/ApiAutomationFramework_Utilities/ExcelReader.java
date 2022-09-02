@@ -1,9 +1,8 @@
-package com.w2a.APITestingFramework.utilities;
+package com.ApiAutomationFramework_Utilities;
 
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.util.Calendar;
 
 import org.apache.poi.common.usermodel.HyperlinkType;
@@ -25,7 +24,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelReader {
 	
-	public  String path;
+	public String path;
 	public  FileInputStream fis = null;
 	public  FileOutputStream fileOut =null;
 	private XSSFWorkbook workbook = null;
@@ -33,8 +32,8 @@ public class ExcelReader {
 	private XSSFRow row   =null;
 	private XSSFCell cell = null;
 	
-	public ExcelReader(String path) {
 		
+	public ExcelReader(String path) {
 		this.path=path;
 		try {
 			fis = new FileInputStream(path);
@@ -405,7 +404,7 @@ public class ExcelReader {
 		sheet=workbook.getSheet(sheetName);
 		XSSFCellStyle style = workbook.createCellStyle();
 		style.setFillForegroundColor(HSSFColor.HSSFColorPredefined.GREY_40_PERCENT.getIndex());
-		XSSFCreationHelper createHelper = workbook.getCreationHelper();
+		//XSSFCreationHelper createHelper = workbook.getCreationHelper();
 		style.setFillPattern(FillPatternType.NO_FILL);
 		
 	    
@@ -500,18 +499,7 @@ public class ExcelReader {
 	}
 		
 	
-	// to run this on stand alone
-	public static void main(String arg[]) throws IOException{
-		
-		
-		ExcelReader datatable = null;
-		
-
-			 datatable = new ExcelReader("C:\\CM3.0\\app\\test\\Framework\\AutomationBvt\\src\\config\\xlfiles\\Controller.xlsx");
-				for(int col=0 ;col< datatable.getColumnCount("TC5"); col++){
-					System.out.println(datatable.getCellData("TC5", col, 1));
-				}
-	}
+	
 	
 	
 }

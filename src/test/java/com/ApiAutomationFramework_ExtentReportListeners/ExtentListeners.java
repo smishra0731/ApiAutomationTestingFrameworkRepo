@@ -1,4 +1,4 @@
-package com.w2a.APITestingFramework.listeners;
+package com.ApiAutomationFramework_ExtentReportListeners;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
@@ -20,8 +20,8 @@ import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.w2a.APITestingFramework.utilities.MonitoringMail;
-import com.w2a.APITestingFramework.utilities.TestConfig;
+import com.ApiAutomationFramework_Utilities.MonitoringMail;
+import com.ApiAutomationFramework_Utilities.TestConfig;
 
 
 
@@ -110,25 +110,25 @@ public class ExtentListeners implements ITestListener, ISuiteListener {
 	public void onFinish(ISuite suite) {
 		
 
-/*
-		try {
-			 messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+":8080/job/APITestingFramework/Extent_20Reports/"+fileName;
-		} catch (UnknownHostException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		MonitoringMail mail = new MonitoringMail();
-		try {
-			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
-		} catch (AddressException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (MessagingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-*/
+
+//		try {
+//			 messageBody = "http://"+InetAddress.getLocalHost().getHostAddress()+":8080/job/APITestingFramework/Extent_20Reports/"+fileName;
+//		} catch (UnknownHostException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		
+//		MonitoringMail mail = new MonitoringMail();
+//		try {
+//			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject, messageBody);
+//		} catch (AddressException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} catch (MessagingException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+
 		
 	}
 

@@ -1,4 +1,4 @@
-package com.w2a.APITestingFramework.utilities;
+package com.ApiAutomationFramework_Utilities;
 import java.util.Properties;
 import javax.activation.DataHandler;
 import javax.activation.DataSource;
@@ -34,8 +34,8 @@ public class MonitoringMail
 		
 	     props.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");   
 	     props.setProperty("mail.smtp.socketFactory.fallback", "false");   
-	     props.setProperty("mail.smtp.port", "465");   
-	     props.setProperty("mail.smtp.socketFactory.port", "465"); 
+	     props.setProperty("mail.smtp.port", "587");   
+	     props.setProperty("mail.smtp.socketFactory.port", "587"); 
 
 		
 		  Authenticator auth = new SMTPAuthenticator();
